@@ -1,7 +1,9 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps"
- 
+
+const url = "https://www.saucedemo.com/index.html";
+
 Given('I am in the Swag Labs login page',()=>{
-    cy.visit("https://www.saucedemo.com/index.html");
+    cy.visit(url);
  
 })
  

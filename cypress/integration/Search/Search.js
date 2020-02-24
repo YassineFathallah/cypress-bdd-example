@@ -1,7 +1,9 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps"
 
+const url = "https://wanago.io/";
+
 Given('I am on wanago homepage',()=>{
-    cy.visit("https://wanago.io/");
+    cy.visit(url);
 })
 
 When('I fill the search input with the {string} word', (word) => {
