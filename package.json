@@ -4,7 +4,8 @@
   "description": "cypress cucumber example",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test-gui": "cypress run"
   },
   "author": "",
   "license": "ISC",
