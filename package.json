@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test-gui": "cypress run"
+    "test-run-cli": " cypress run --record --key fa9a1668-8542-4f5c-9001-3a97e89a9b1c"
   },
   "author": "",
   "license": "ISC",
